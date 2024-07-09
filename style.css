@@ -126,13 +126,13 @@ label:hover{
     transition: .5s;
 }
 
-#check2:checked ~ .container .Photo-Gallery .Cross-Country{
+#check2:checked ~ .container .Photo-Gallery .Sports-Day{
     opacity: 1;
     transform: scale(1);
     position: relative;
 }
 #check2:checked ~ .container .Photo-Gallery .Sports-Day,
-#check2:checked ~ .container .Photo-Gallery .Sports-Day{
+#check2:checked ~ .container .Photo-Gallery .Cross-Country{
     opacity: 0;
     transform: scale(0);
     position: absolute;
