@@ -131,8 +131,8 @@ label:hover{
     transform: scale(1);
     position: relative;
 }
-#check2:checked ~ .container .Photo-Gallery .Sports-Day,
-#check2:checked ~ .container .Photo-Gallery .Cross-Country{
+#check2:checked ~ .container .Photo-Gallery .Cross-Country,
+#check2:checked ~ .container .Photo-Gallery .Pink-Day{
     opacity: 0;
     transform: scale(0);
     position: absolute;
@@ -144,7 +144,7 @@ label:hover{
     transform: scale(1);
     position: relative;
 }
-#check3:checked ~ .container .Photo-Gallery .Cross-Country,
+#check3:checked ~ .container .Photo-Gallery .Sports-Day,
 #check3:checked ~ .container .Photo-Gallery .Pink-Day{
     opacity: 0;
     transform: scale(0);
