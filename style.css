@@ -157,10 +157,12 @@ label:hover{
     transform: scale(1);
     position: relative;
 }
-#check4:checked ~ .container .Photo-Gallery .Sports-Day,
-#check4:checked ~ .container .Photo-Gallery .Pink-Day{
+#check4:checked ~ .container .Photo-Gallery .Cross-Country,
+#check4:checked ~ .container .Photo-Gallery .Sports-Day{
     opacity: 0;
     transform: scale(0);
     position: absolute;
     transition: 0s;
 }
+
+
